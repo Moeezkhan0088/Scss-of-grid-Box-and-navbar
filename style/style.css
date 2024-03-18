@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .left img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  height: 60px;
+  margin: 20px 10px;
+  /* Adjust margin as needed */
+}
+
+header .left h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+header .mid {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* margin: 15px 0;  */
+  /* padding: 9px 6px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .mid .navbar {
+  /* position: absolute; */
+  /* right: 34px;
+            top: 20px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .mid .navbar li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .mid .navbar a {
+  color: #e7f0f8;
+  text-decoration: none;
+  padding: 8px 17px;
+  font-size: 18px;
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row {
+  /* background-color: aqua; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* gap: 5px; */
+}
+
+.row .column {
+  width: 25%;
+  max-width: 100%;
+  padding: 10px;
+  /* border: 1px solid black; */
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+}
+
+.row .column > div {
+  border: 1px solid black;
+  background-color: grey;
+}
+
+.row .column .p-1 {
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
